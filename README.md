@@ -94,3 +94,10 @@ The somewhat outdated Ubuntu documentation [here](https://help.ubuntu.com/commun
 
 ### License
 MIT license.
+
+### Docker
+
+```bash
+docker build -t ubuntu-autoinstall-generator .
+docker run -it --volume $(pwd):/build ubuntu-autoinstall-generator bash ubuntu-autoinstall-generator.sh -r -v -
+```

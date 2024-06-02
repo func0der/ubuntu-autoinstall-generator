@@ -8,3 +8,6 @@ user-data.yaml
 **id_rsa**
 **authorized_keys**
 .env
+*.img
+user-data
+meta-data
